@@ -1,0 +1,12 @@
+﻿**/node_modules/
+**/.next/
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/android/.gradle/
+**/__pycache__/
+**/.venv/
+**/env/
+*.pyc
+.DS_Store
+Thumbs.db
