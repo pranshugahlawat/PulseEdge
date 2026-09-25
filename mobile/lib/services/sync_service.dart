@@ -7,6 +7,7 @@ import '../models/encounter.dart';
 class SyncService {
   // Allows testing on physical devices by setting your PC's LAN IP (e.g., 192.168.1.5)
   static String? customServerHost;
+  static const String productionServerUrl = "https://stevens-lawsuit-assume-maternity.trycloudflare.com/";
 
   static String get serverBaseUrl {
     // 1. If user set an override IP, use it:
